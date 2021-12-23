@@ -1,5 +1,5 @@
 // Any top-level-await operation
-let data = await new Promise((resolve) => {
+const data = await new Promise((resolve) => {
   resolver(123)
 })
 
